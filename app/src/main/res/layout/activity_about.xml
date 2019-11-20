@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.bengkuluexist.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/myPict"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            app:civ_border_color="@color/colorPrimaryDark"
+            app:civ_border_width="2dp"
+            android:src="@drawable/foto"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/about_horizontal_margin"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="@dimen/about_horizontal_margin"
+                android:text="@string/nama"
+                android:textColor="@color/colorPrimaryDark"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/about_horizontal_margin"
+                android:layout_marginTop="15dp"
+                android:text="@string/email"
+                android:textColor="@color/colorPrimaryDark"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/about_horizontal_margin"
+                android:layout_marginTop="80dp"
+                android:text="@string/terimakasih"
+                android:textColor="@color/colorPrimaryDark"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:drawableEnd="@drawable/dicoding"
+                android:gravity="center_vertical"
+                android:drawablePadding="20dp"
+                android:textSize="20sp" />
+    </LinearLayout>
+
+
+</ScrollView>

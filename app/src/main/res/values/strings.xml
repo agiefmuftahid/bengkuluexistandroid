@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BengkuluExist</string>
+    <string name="nama_item">Nama Item</string>
+    <string name="keterangan_item">Keterangan Item</string>
+    <string name="kategori_item">Kategori Item</string>
+    <string name="email">Email : agiefm@gmail.com</string>
+    <string name="nama">Nama : Agief Muftahid</string>
+    <string name="terimakasih">Terima Kasih Dicoding</string>
+    <string name="namaitem">Nama Item</string>
+    <string name="kategoriitem">Kategori Item</string>
+    <string name="deskripsistatic">Deskripsi :</string>
+    <string name="deskripsiitem">Deskripsi Item</string>
+</resources>
